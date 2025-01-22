@@ -4,3 +4,4 @@ tensorflow==2.16.1
 numpy==1.23.5
 pandas==1.5.3
 joblib==1.2.0
+setuptools==65.5.1
