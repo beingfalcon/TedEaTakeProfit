@@ -1,3 +1,5 @@
+#app.py
+
 from flask import Flask, request, jsonify, render_template
 import numpy as np
 import pandas as pd
@@ -53,4 +55,4 @@ def predict():
         return jsonify({"error": str(e)}), 500
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+    app.run(debug=True)
